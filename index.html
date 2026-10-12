@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>መሠረተ አንድነት በጎ አድራጎት ማህበር | Meserete Andinet Charity</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0056b3, #008080);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .container {
+            max-width: 700px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .message-box {
+            background-color: #eef7ff;
+            border-left: 5px solid #0056b3;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 4px;
+        }
+        .message-box h3 {
+            color: #0056b3;
+            margin-bottom: 8px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        .btn-submit {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            font-size: 1.1rem;
+            width: 100%;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .btn-submit:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #28a745;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>መሠረተ አንድነት በጎ አድራጎት ማህበር</h1>
+        <p>Meserete Andinet Charity Organization - International Community</p>
+    </header>
+
+    <div class="container">
+        <!-- የመልካም ምኞትና ጥሪ መልእክት -->
+        <div class="message-box">
+            <h3>መልካም መልእክት ከማህበራችን!</h3>
+            <p>እንኳን ወደ መሠረተ አንድነት በጎ አድራጎት ማህበር በደህና መጡ! "አንድነት ኃይል ነው" በሚለው መሪያችን በመነሳት ሰዎችን ለመርዳት፣ መልካምነትን ለማስፋፋት እና በህብረተሰባችን ውስጥ በጎ ተጽዕኖ ለማሳደር በጋራ እንሰራለን። የእርስዎ አባል መሆን ለብዙዎች ተስፋ ነው። ዛሬውኑ ይመዝገቡ!</p>
+        </div>
+
+        <h2>የአባልነት መመዝገቢያ ቅጽ</h2>
+        <br>
+
+        <!-- FormSubmit አገልግሎትን በመጠቀም መረጃውን በቀጥታ ወደ ኢሜይልዎ ይልካል -->
+        <form action="https://formsubmit.co/mesereteandinetdilla@gmail.com" method="POST">
+            
+            <!-- ከተላከ በኋላ የሚታይ መልእክት ማስተካከያ -->
+            <input type="hidden" name="_subject" value="አዲስ የአባልነት ምዝገባ - መሠረተ አንድነት">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="form-group">
+                <label for="fullname">ሙሉ ስም (Full Name)</label>
+                <input type="text" id="fullname" name="Full Name" placeholder="ሙሉ ስምዎን ያስገቡ" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">ኢሜይል (Email Address)</label>
+                <input type="email" id="email" name="Email" placeholder="example@mail.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">ስልክ ቁጥር (Phone Number)</label>
+                <input type="tel" id="phone" name="Phone" placeholder="+251 ..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="country">ሀገር/ከተማ (Country/City)</label>
+                <input type="text" id="country" name="Location" placeholder="ኢትዮጵያ / ዲላ" required>
+            </div>
+
+            <div class="form-group">
+                <label for="type">የአባልነት ዓይነት (Membership Type)</label>
+                <select id="type" name="Membership Type">
+                    <option value="መደበኛ አባል">መደበኛ አባል (Regular Member)</option>
+                    <option value="የበጎ ፈቃደኛ አገልግሎት">የበጎ ፈቃደኛ አገልግሎት (Volunteer)</option>
+                    <option value="ደጋፊ/ለጋሽ">ደጋፊ / ለጋሽ (Donor Support)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">ተጨማሪ አስተያየት ወይም መልእክት (Message)</label>
+                <textarea id="message" name="Message" rows="4" placeholder="የሚልኩት ተጨማሪ ሀሳብ ካለ..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">አሁን ይመዝገቡ (Submit Registration)</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 መሠረተ አንድነት በጎ አድራጎት ማህበር | Meserete Andinet Charity</p>
+        <p>Contact: <a href="mailto:mesereteandinetdilla@gmail.com">mesereteandinetdilla@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
